@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edecfc;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.about-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #b6b6d6;
+}
+.intro, .mission, .vision, .highlights, .contact {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fab6b6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+h2 {
+    color: #003366;
+}
+section {
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* principal message */
+.school-principal {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.principal-message {
+    background-color: #eaeabe;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border-left: 6px solid #6c63ff;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer p::after {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    content: " " after (data-year);
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Faculty section */
+.facilities-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.facilities-section h2 {
+    padding: 20px 0;
+    background-color: #9b97e7;
+    color: #003366;
+}
+.facility {
+    background-color: #eaeabe;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.facility h3 {
+    color: #4418d2;
+}
+.facility-img {
+    width: 100%;
+    max-height: 200px;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

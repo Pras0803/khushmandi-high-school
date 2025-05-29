@@ -1,0 +1,184 @@
+/* Reset default browser styles / margin / padding*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #edecfc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #34558b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.logo-header {
+  background-color: #3455 ;
+  color : red;
+  padding: 10px 0;
+}
+
+.school-name {
+  margin-bottom: 10px;
+}
+
+nav ul { display : flex; 
+list-style-type: none;
+justify-content: center;
+gap : 20px;
+color : white;
+}
+
+nav ul li a { text-decoration: none;
+color: white;
+font-weight: bold;
+padding : background 0.3s, color 0.3s;
+transition: background 0.3s, color 0.3s;
+border-radius: 5px
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: green
+}
+
+/*Hero Section*/
+
+.hero {
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.6ljMBlZ2EItK90JGa9WIRwHaEK&pid=Api&P=0&h=180');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content h2 { font-size: 34px ;
+  max-width: 600px;
+  margin-top: 0 auto;
+  color: white;
+  text-align: left;
+  top : 70%;
+  transform: translateY(-150%);
+}
+
+.hero-content p {
+  color: white;
+  background: rgba(0,0,0,0.5);
+  top : 70%;
+  transform: translateY(-290%);
+  text-align: left;
+}
+
+
+
+.hero-btn {
+  background-color: #34558b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: green;
+}
+
+.announcement {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+.announcement h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+view-all-btn:hover {
+  background-color: #34558b;
+}
+
+/* Quick Links Section */
+.quick-links {
+  background-color: #dbcbcb;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 20px;
+}
+.quick-links h2 {
+  font-size: 24px;
+  color : #333;
+  text-align: center;
+}
+/*
+.quick-links .card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.quick-links .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}*/
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 430px;
+  padding: 25px 20px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #666;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  margin-bottom: 15px;
+}
+.card a:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #28db14;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  
+  transform: translateY(-5px);
+}
+
+/* Footer */
+.closing-message {
+  background-color: #34558b;
+  padding : 25px 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  border-top: 1px solid #acccdd;
+  border-bottom: 1px solid #acccdd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
